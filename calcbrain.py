@@ -1,10 +1,11 @@
 import re
 import math
+import sys
 
 seconds = 0
 minutes = 0
 hours = 0
-talks = ('''''')
+talks = sys.stdin.readline()
 
 #時間別分類
 abovetenhour = re.findall('通話時間 ..:..:..',talks)#
